@@ -4,9 +4,14 @@
 
 #ifndef SPITFIRE_BITMAPS_H
 #define SPITFIRE_BITMAPS_H
+#include <limits>
 #include <nmmintrin.h>
 #include <cstdlib>
 #include <cstdint>
+#include <vector>
+#include <atomic>
+#include <cassert>
+
 namespace spitfire {
 
 template<size_t bytes>

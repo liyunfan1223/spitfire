@@ -257,7 +257,8 @@ void SimulatedAnnealingDriver(PadInt *commit_counts, ConcurrentBufferManager *bu
         return new_config;
     };
 
-    benchmark::SimulatedAnnealing(state.duration, initial_config, set_config, get_current_config_cost,                              get_neighboring_config);
+    benchmark::SimulatedAnnealing(state.duration, initial_config, set_config, get_current_config_cost,
+                                  get_neighboring_config);
     //benchmark::GradientDescent(state.duration, initial_config, set_config, get_current_config_cost);
     delete[] prev_commit_counts;
 }

@@ -53,7 +53,7 @@ void Usage(FILE *out) {
           "   -U --warmup_duration   :  warmup duration(s)\n"
           "   -A --enable_annealing  :  whether to enable simulated annealing for adaptive data migration\n"
           "   -s --shuffle_keys      :  whether to shuffle keys at startup (Default: fasle)\n"
-          "   -t --enable_hymem      :  whether to enable HyMem settings"
+          "   -t --enable_hymem      :  whether to enable HyMem settings\n"
           "   -X --admission_set_sz  :  size of the admission queue in HyMem settings in percentage of # buffer pages in NVM\n"
   );
 }
